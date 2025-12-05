@@ -58,6 +58,7 @@ st.markdown("""Streamlit is super simple and easy to use, but some difficulties 
            
 1. **Figuring out how to structure the page layout to make it visually appealing (I had to refer to the documentation and examples on the streamlit website).**
 2. **Initally, I had the wrong python environment activated, so streamlit commands were not recognized. I solved this by ensuring I was in the correct virtual environment before running the streamlit app.**
-3. **Understanding how to deploy the app for others to see. I researched deployment options and found that using github to host my streamlit app was the easiest method.**"""
+3. **Understanding how to deploy the app for others to see. I researched deployment options and found that using streamlit cloud to host my streamlit app was the easiest method.**"""
 )
+
 
