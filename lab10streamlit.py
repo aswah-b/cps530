@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.set_page_config(page_title="CPS530 – Lab 10 Problem 2 (Streamlit Framework Page)", page_icon="🌐",layout="centered")
+st.set_page_config(page_title="CPS530 Lab 10 Problem 2", page_icon="🌐",layout="centered")
 
 st.title("CPS530 – Problem 2")
 st.write("**Framework / Library used:** Streamlit (Python web-based framework)")
@@ -29,13 +29,12 @@ Below is (almost) the same code that powers this page:
 
 code_example = '''import streamlit as st
 
-st.set_page_config(page_title="CPS530 – Lab 10 Problem 2 (Streamlit Framework Page)",
+st.set_page_config(page_title="CPS530 Lab 10 Problem 2",
 page_icon="🌐",
 layout="centered")
 
 st.title("CPS530 – Problem 2")
-st.write("Framework / Library used: Streamlit (Python web app framework)")
-
+st.write("Framework / Library used: Streamlit")
 st.header("How I installed Streamlit")
 st.markdown("[installation steps]")
 
@@ -60,5 +59,6 @@ st.markdown("""Streamlit is super simple and easy to use, but some difficulties 
 2. **Initally, I had the wrong python environment activated, so streamlit commands were not recognized. I solved this by ensuring I was in the correct virtual environment before running the streamlit app.**
 3. **Understanding how to deploy the app for others to see. I researched deployment options and found that using streamlit cloud to host my streamlit app was the easiest method.**"""
 )
+
 
 
